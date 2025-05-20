@@ -1,0 +1,34 @@
+1. What is the main source of energy for the human body?
+options:
+"A.Fats",
+"B.Proteins",
+"C.Vitamins",
+"D.Carbohydrates" ✅
+
+2. How much of the human body is made up of water (approximately)?
+options:
+"A.30%",
+"B.50%",
+"C.60%", ✅
+"D.80%"
+
+3. Which of these is considered a healthy habit?
+options:
+"A.Sleeping 4 hours a night",
+"B.Drinking sugary drinks regularly",
+"C.Exercising regularly", ✅
+"D.Skipping breakfast"
+
+4. What vitamin do we get from sunlight?
+options:
+"A.Vitamin A",
+"B.Vitamin C",
+"C.Vitamin D ✅",
+"D.Vitamin B12"
+
+5. What is the average normal human body temperature in Celsius?
+options:
+"A.36.5°C ✅",
+"B.34°C",
+"C.39°C",
+"D.41°C"
