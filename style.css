@@ -400,3 +400,142 @@ body {
 .result-box .buttons {
   display: flex;
 }
+
+/* ================== Responsive Design ================== */
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 5%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar a {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+
+  .home-content h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .home-content p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .home-content .Start-but {
+    width: 140px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .popup-info {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .popup-info h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .popup-info .info {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .popup-info .but-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .popup-info .info-but {
+    width: 100%;
+    height: 45px;
+  }
+
+  .quiz-section .quiz-box {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .quiz-box h1 {
+    font-size: 24px;
+  }
+
+  .quiz-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .quiz-box .question-text {
+    font-size: 18px;
+  }
+
+  .option-list .option {
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .quiz-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .quiz-footer .question-total {
+    font-size: 13px;
+  }
+
+  .quiz-footer .next-but {
+    width: 100%;
+  }
+
+  .result-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .result-box h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .percentage-container .circular-progress {
+    width: 180px;
+    height: 180px;
+  }
+
+  .circular-progress .progress-val {
+    font-size: 28px;
+  }
+
+  .percentage-container .score-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
